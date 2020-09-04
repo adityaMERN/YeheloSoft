@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>LOG IN</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <section id="formHolder">
+
+      <div class="row">
+
+        <!-- Brand Box -->
+        <div class="col-sm-6 brand">
+
+
+          <div class="heading">
+            <a href="https://www.linkedin.com/company/yehlosoft-media/about/"><img src="images/downloadlogo1.jpg" alt="not found" class="center"></a>
+            <h2>YeheloSoft InfoMedia </h2>
+
+          </div>
+
+          <div class="success-msg">
+            <p>Great! SignIn Succesful</p>
+            <a href="#" class="profile">Your Profile</a>
+          </div>
+        </div>
+
+
+        <!-- Form Box -->
+        <div class="col-sm-6 form">
+
+          <!-- Login Form -->
+          <div class="login form-peice switched">
+            <form class="login-form" action="#" method="post" autocomplete="off">
+              <div class="form-group">
+                <label for="loginemail">Email Adderss</label>
+                <input type="email" name="loginemail" id="loginemail" required>
+              </div>
+
+              <div class="form-group">
+                <label for="loginPassword">Password</label>
+                <input type="password" name="loginPassword" id="loginPassword" required>
+              </div>
+
+              <div class="CTA">
+                <input type="submit" value="Login">
+                <a href="#" class="switch">I'm New</a>
+              </div>
+            </form>
+          </div>
+
+
+          <!-- Signup Form -->
+          <div class="signup form-peice">
+            <form class="signup-form" action="#" method="post" autocomplete="off">
+
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" name="username" id="name" class="name">
+                <span class="error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Adderss</label>
+                <input type="email" name="emailAdress" id="email" class="email">
+                <span class="error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Phone Number - <small>Optional</small></label>
+                <input type="text" name="phone" id="phone">
+              </div>
+
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="pass">
+                <span class="error"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="passwordCon">Confirm Password</label>
+                <input type="password" name="passwordCon" id="passwordCon" class="passConfirm">
+                <span class="error"></span>
+              </div>
+
+              <div class="CTA">
+                <input type="submit" value="Signup Now" id="submit">
+                <a href="#" class="switch">I have an account</a>
+              </div>
+            </form>
+          </div><!-- End Signup Form -->
+        </div>
+      </div>
+
+    </section>
+
+
+    <footer>
+      <p>
+
+        <a href="https://github.com/adityaMERN" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+      </p>
+    </footer>
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
